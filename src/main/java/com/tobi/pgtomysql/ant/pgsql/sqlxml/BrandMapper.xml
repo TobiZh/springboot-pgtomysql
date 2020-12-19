@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tobi.pgtomysql.ant.pgsql.mapper.BrandMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tobi.pgtomysql.ant.pgsql.entity.Brand">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="logo" property="logo" />
+        <result column="orderby" property="orderby" />
+        <result column="is_enabled" property="isEnabled" />
+        <result column="description" property="description" />
+        <result column="memo" property="memo" />
+        <result column="created" property="created" />
+        <result column="updated" property="updated" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tobi.pgtomysql.ant.mysql.mapper.BrandPersonSiteMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tobi.pgtomysql.ant.mysql.entity.BrandPersonSite">
+        <id column="id" property="id" />
+        <result column="brand_person_id" property="brandPersonId" />
+        <result column="site_id" property="siteId" />
+        <result column="title" property="title" />
+        <result column="promotion_id" property="promotionId" />
+        <result column="url" property="url" />
+        <result column="url_gen" property="urlGen" />
+        <result column="finish_time_new" property="finishTimeNew" />
+        <result column="finish_time_exclusive" property="finishTimeExclusive" />
+        <result column="is_deleted" property="isDeleted" />
+        <result column="updated" property="updated" />
+        <result column="created" property="created" />
+        <result column="u_timestamp" property="uTimestamp" />
+    </resultMap>
+
+</mapper>

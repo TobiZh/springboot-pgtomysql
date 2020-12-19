@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tobi.pgtomysql.ant.pgsql.mapper.TeleplayMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tobi.pgtomysql.ant.pgsql.entity.Teleplay">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="alias" property="alias" />
+        <result column="sartf_title" property="sartfTitle" />
+        <result column="tv_first_play_date" property="tvFirstPlayDate" />
+        <result column="tv_first_play_date_wait" property="tvFirstPlayDateWait" />
+        <result column="net_first_play_date" property="netFirstPlayDate" />
+        <result column="episode_nums" property="episodeNums" />
+        <result column="runtime" property="runtime" />
+        <result column="description" property="description" />
+        <result column="orderby" property="orderby" />
+        <result column="is_enabled" property="isEnabled" />
+        <result column="is_dig" property="isDig" />
+        <result column="is_published" property="isPublished" />
+        <result column="is_complete" property="isComplete" />
+        <result column="has_cover" property="hasCover" />
+        <result column="category_id" property="categoryId" />
+        <result column="country_id" property="countryId" />
+        <result column="language_id" property="languageId" />
+        <result column="lifecycle_id" property="lifecycleId" />
+        <result column="search_keyword" property="searchKeyword" />
+        <result column="net_last_play_date" property="netLastPlayDate" />
+        <result column="tv_last_play_date" property="tvLastPlayDate" />
+        <result column="memo" property="memo" />
+        <result column="created" property="created" />
+        <result column="updated" property="updated" />
+    </resultMap>
+
+</mapper>

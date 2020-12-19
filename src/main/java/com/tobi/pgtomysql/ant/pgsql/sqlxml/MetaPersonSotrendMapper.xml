@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tobi.pgtomysql.ant.pgsql.mapper.MetaPersonSotrendMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tobi.pgtomysql.ant.pgsql.entity.MetaPersonSotrend">
+        <id column="id" property="id" />
+        <result column="keyword" property="keyword" />
+        <result column="is_enabled" property="isEnabled" />
+        <result column="updated" property="updated" />
+        <result column="person_id" property="personId" />
+        <result column="spider_id" property="spiderId" />
+        <result column="created" property="created" />
+    </resultMap>
+
+</mapper>

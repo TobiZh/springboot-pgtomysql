@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tobi.pgtomysql.ant.pgsql.mapper.MovieHuatiMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tobi.pgtomysql.ant.pgsql.entity.MovieHuati">
+        <id column="id" property="id" />
+        <result column="weight" property="weight" />
+        <result column="is_enabled" property="isEnabled" />
+        <result column="is_exclusive" property="isExclusive" />
+        <result column="huati_id" property="huatiId" />
+        <result column="movie_id" property="movieId" />
+        <result column="movie_id" property="movieId" />
+        <result column="created" property="created" />
+        <result column="updated" property="updated" />
+    </resultMap>
+
+</mapper>

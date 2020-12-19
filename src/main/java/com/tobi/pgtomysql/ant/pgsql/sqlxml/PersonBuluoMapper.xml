@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tobi.pgtomysql.ant.pgsql.mapper.PersonBuluoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tobi.pgtomysql.ant.pgsql.entity.PersonBuluo">
+        <id column="person_id" property="personId" />
+        <result column="person_id" property="personId" />
+        <result column="title" property="title" />
+        <result column="url" property="url" />
+        <result column="uid" property="uid" />
+        <result column="is_enabled" property="isEnabled" />
+        <result column="fans_num" property="fansNum" />
+        <result column="subject_num" property="subjectNum" />
+        <result column="spider_date" property="spiderDate" />
+        <result column="grab_status" property="grabStatus" />
+        <result column="updated" property="updated" />
+        <result column="created" property="created" />
+    </resultMap>
+
+</mapper>

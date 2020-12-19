@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tobi.pgtomysql.ant.mysql.mapper.TeleplaySiteMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tobi.pgtomysql.ant.mysql.entity.TeleplaySite">
+        <id column="id" property="id" />
+        <result column="teleplay_id" property="teleplayId" />
+        <result column="site_id" property="siteId" />
+        <result column="title" property="title" />
+        <result column="uid" property="uid" />
+        <result column="show_url" property="showUrl" />
+        <result column="num_url" property="numUrl" />
+        <result column="is_fullepi" property="isFullepi" />
+        <result column="spider_id" property="spiderId" />
+        <result column="crawled_info" property="crawledInfo" />
+        <result column="is_min_id" property="isMinId" />
+        <result column="spider_status" property="spiderStatus" />
+        <result column="is_deleted" property="isDeleted" />
+        <result column="updated" property="updated" />
+        <result column="created" property="created" />
+        <result column="u_timestamp" property="uTimestamp" />
+    </resultMap>
+
+</mapper>

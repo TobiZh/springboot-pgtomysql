@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tobi.pgtomysql.ant.pgsql.mapper.MetaCreditMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tobi.pgtomysql.ant.pgsql.entity.MetaCredit">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="orderby" property="orderby" />
+        <result column="is_enabled_movie" property="isEnabledMovie" />
+        <result column="is_enabled_teleplay" property="isEnabledTeleplay" />
+        <result column="is_enabled_zy" property="isEnabledZy" />
+        <result column="is_enabled_brand" property="isEnabledBrand" />
+        <result column="is_enabled_person_prdhouse" property="isEnabledPersonPrdhouse" />
+        <result column="is_enabled_prdhouse_brand" property="isEnabledPrdhouseBrand" />
+        <result column="is_enabled_prdhouse_movie" property="isEnabledPrdhouseMovie" />
+        <result column="is_enabled_prdhouse_teleplay" property="isEnabledPrdhouseTeleplay" />
+        <result column="is_enabled_prdhouse_zy" property="isEnabledPrdhouseZy" />
+        <result column="is_enabled_music" property="isEnabledMusic" />
+        <result column="is_enabled_musicalbum" property="isEnabledMusicalbum" />
+        <result column="is_enabled_persongroup_prdhouse" property="isEnabledPersongroupPrdhouse" />
+        <result column="is_enabled_prdhouse_music" property="isEnabledPrdhouseMusic" />
+        <result column="is_enabled_prdhouse_musicalbum" property="isEnabledPrdhouseMusicalbum" />
+        <result column="created" property="created" />
+        <result column="updated" property="updated" />
+    </resultMap>
+
+</mapper>

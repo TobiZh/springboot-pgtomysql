@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tobi.pgtomysql.ant.pgsql.mapper.MetaMusicalbumMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tobi.pgtomysql.ant.pgsql.entity.MetaMusicalbum">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="memo" property="memo" />
+        <result column="release_time" property="releaseTime" />
+        <result column="is_enabled" property="isEnabled" />
+        <result column="is_complete" property="isComplete" />
+        <result column="orderby" property="orderby" />
+        <result column="language_id" property="languageId" />
+        <result column="created" property="created" />
+        <result column="updated" property="updated" />
+    </resultMap>
+
+</mapper>
